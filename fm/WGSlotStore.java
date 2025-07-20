@@ -1,4 +1,4 @@
-public class WGSlotStore {
+public class WGSlotStore extends SlotStore {
     protected Slot makeSlot(slottype type) {
         double multiplier = 0.8;
 		Slot tmp = null;

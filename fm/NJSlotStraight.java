@@ -7,8 +7,4 @@ public class NJSlotStraight extends Slot {
 		components.add("LCD");
 		components.add("ARM");
 	}
-	
-	void ship() {
-		System.out.println("having uncle vinnie drop it off");
-	}
 }

@@ -7,8 +7,4 @@ public class NVSlotStraight extends Slot {
 		components.add("reels");
 		components.add("ARM");
 	}
-	
-	void ship() {
-		System.out.println("having uncle vinnie drop it off");
-	}
 }

@@ -7,8 +7,9 @@ public class WGSlotProgressive extends Slot {
 		components.add("reels");
 		components.add("ARM");
 	}
-	
-	void ship() {
-		System.out.println("having uncle vinnie drop it off");
+
+
+	public void linkTo(java.util.ArrayList<Slot> otherSlots) {
+		System.out.println("WG Progressive slot linked to " + otherSlots.size() + " other slots.");
 	}
 }

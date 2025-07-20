@@ -7,8 +7,4 @@ public class WGSlotBonus extends Slot {
 		components.add("VGA");
 		components.add("ARM");
 	}
-	
-	void ship() {
-		System.out.println("having uncle vinnie drop it off");
-	}
 }

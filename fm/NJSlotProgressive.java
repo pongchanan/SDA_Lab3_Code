@@ -11,4 +11,8 @@ public class NJSlotProgressive extends Slot {
 	void ship() {
 		System.out.println("having uncle vinnie drop it off");
 	}
+
+	public void linkTo(java.util.ArrayList<Slot> otherSlots) {
+		System.out.println("NJ Progressive slot linked to " + otherSlots.size() + " other slots.");
+	}
 }
